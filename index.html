@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Reviews</title>
+    <style>
+        body {
+            background-color: #f0f0f0; /* Light gray background */
+            color: #333; /* Dark gray text */
+            font-family: Arial, sans-serif; /* Use Arial font */
+        }
+
+        h1 {
+            color: #007bff; /* Blue heading text */
+        }
+
+        .container {
+            max-width: 600px; /* Limit width to 600px */
+            margin: 0 auto; /* Center the container */
+            padding: 20px; /* Add padding */
+            background-color: #C2C8C1; /* White background */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+        }
+
+        input[type="text"], input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #E5280E; /* Blue submit button */
+            color: #fff; /* White text */
+            cursor: pointer; /* Add pointer cursor */
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2; /* Light gray header background */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 align=center>Movie Review</h1>
+        
+        <label for="Name"><b>Movie Name:</b></label><br>
+        <input type="text" name="Name" id="Name"><br>
+        
+        <label for="Genre"><b>Genre:</b></label><br>
+        <input type="text" name="Genre" id="Genre"><br>
+        
+        <label for="Review"><b>Review:</b></label><br>
+        <input type="text" name="Review" id="Review"><br>
+        
+        <br>
+        <input type="submit" id="savereview" value="Save review Data">
+        <p id="ReviewSaved"></p>
+        
+        <br>
+        <input type="submit" id="getreview" value="View all reviews">
+        <br><br>
+        <div id="showreview">
+            <table id="ReviewTable">
+                <colgroup>
+                    <col style="width:20%">
+                    <col style="width:20%">
+                    <col style="width:20%">
+                    <col style="width:20%">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <!-- <th>Employee ID</th> -->
+                        <th>Movie Name</th>
+                        <th>Genre</th>
+                        <th>Comment</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Employee data will be displayed here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+</body>
+</html>
