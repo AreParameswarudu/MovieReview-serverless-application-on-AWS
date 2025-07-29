@@ -1,5 +1,5 @@
 // Add your API endpoint here
-var API_ENDPOINT = "https://qnoubscvqa.execute-api.ap-south-1.amazonaws.com/Review-application";
+var API_ENDPOINT = "YOUR_API_END_POINT";
 
 // AJAX POST request to save Employee data
 document.getElementById("savereview").onclick = function(){
