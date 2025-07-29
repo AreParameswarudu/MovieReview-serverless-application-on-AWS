@@ -1,5 +1,5 @@
 // Add your API endpoint here
-var API_ENDPOINT = "YOUR_API_END_POINT";
+var API_ENDPOINT = "YOUR_API_END_POINT-from-AWS-API-GATEWAY";
 
 // AJAX POST request to save Employee data
 document.getElementById("savereview").onclick = function(){
