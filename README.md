@@ -11,7 +11,8 @@ I have used **S3 static web hosting** feature for hosting the frontend of the ap
 
 # The flow of the application looks as, 
 
-  <img width="1023" height="167" alt="image" src="https://github.com/user-attachments/assets/63811cf7-7bad-4700-bd5c-09f39154269e" />  
+  <img width="1126" height="403" alt="image" src="https://github.com/user-attachments/assets/d9aa38bb-e636-4f89-a90d-f12910f7156d" />
+ 
 
 ## Lets Talk about the setup and configuring the setup,
 
