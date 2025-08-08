@@ -115,4 +115,5 @@ We can even check/query the database ( dynamodb ) for the data that is stored.
    
 ## Additionals that will leverage the full functionality of the application:  
    Integrate the Cognito to authenticate and authorize users.  
-   Use cloud front to host the application to all regions.
+   Use cloud front to host the application to all regions.  
+   Using cloudwatch and aws insights to visualise the analytics.
